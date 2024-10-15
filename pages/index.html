@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julian Maldonado</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-
+    <script src="/scripts/Gracias.js"></script>
 </head>
 <body>
-    <header class="encabezado">
+    <nav>
+
+        <ul>
+
+            <li><a href="#encabezado">Encabezado</a></li>
+
+            <li><a href="#instituciones">Instituciones</a></li>
+
+            <li><a href="#experiencia">Experiencia</a></li>
+
+            <li><a href="#habilidades">Habilidades</a></li>
+
+            <li><a href="#idiomas">Idiomas</a></li>
+
+            <li><a href="#contacto">Contacto</a></li>
+
+        </ul>
+
+    </nav>
+    <header class="encabezado" id="encabezado">
         <h1 class="nombre">Julian Leonardo Maldonado Perez</h1>
         <p class="informacion">Estudiante universitario de cuarto 
             semestre en Tecnología de Desarrollo de Software con
@@ -22,8 +40,8 @@
             experiencia para el futuro. Aportando con el ciclo de vida del 
             software.</p>
     </header>
-<section class="parent"></section>
-    <section class="instituciones">
+<section class="parent">
+    <section class="instituciones" id="instituciones">
         <h2>instituciones, títulos y fechas.</h2>
         <ul>
             <li>Gimnasio Fidel Cano
@@ -38,25 +56,25 @@
                     <li>Fecha: 2024</li>
                     <li>Titulo: <a href="https://coursera.org/share/8580cf49cc1514dfff62fadc00583a4d">Cómo resolver problemas y tomar decisiones con eficacia</a></li>
                     <li>Fecha: 2024</li>
-                    <li>Titulo: <a href="729c81823f58302911b65ec870c883c8">Desarrollo de aplicaciones en Python en AWS</a></li>
+                    <li>Titulo: <a href="https://coursera.org/share/729c81823f58302911b65ec870c883c8">Desarrollo de aplicaciones en Python en AWS</a></li>
                 </ul>
             </li>
             <li>Google (Coursera)
                 <ul>
-                    <li>Titulo: <a href="https://coursera.org/share/729c81823f58302911b65ec870c883c8">Diseño de Experiencia del Usuario (UX) de Google</a></li>
+                    <li>Titulo: <a href="https://coursera.org/share/06e26a21c7f5dce500e5810172b0cc71">Diseño de Experiencia del Usuario (UX) de Google</a></li>
                     <li>Fecha: 2023</li>
                 </ul>
             </li>
         </ul>
     </section>
-    <section class="experiencia">
+    <section class="experiencia" id="experiencia">
         <h2>Experiencia laboral</h2>
         <ul>
             <li>Empresa: PetiVet
                 <ul>
                     <li>Cargo: Digitalizador de datos físicos médicos - Veterinaria (Practicante TI)</li>
                     <li>Ubicación: Bogotá</li>
-                    <li>Fecha: MV 17/2022 - MZ 11/2023</li>
+                    <li>Fecha: 17/2022 - 11/2023</li>
                     <li>Responsabilidades:
                         <ul>
                             <li>Digitalización de historias clínicas, recetas y otros documentos médicos.</li>
@@ -94,7 +112,7 @@
             </li>
         </ul>  
     </section>
-    <section class="habilidades">
+    <section class="habilidades" id="habilidades">
         <h2>Habilidades</h2>
         <ul>
             <li>Data Visualization: Google Sheets, Excel</li>
@@ -102,31 +120,31 @@
             <li>Soft Skills: Presentation, Planning, Creative Problem-Solving, Teamwork, Adaptability, Analytical Thinking</li>
         </ul>
     </section>
-    <section class="idiomas">
+    <section class="idiomas" id="idiomas">
         <h2>Idiomas</h2>
         <ul>
             <li>Español: Nativo</li>
             <li>Inglés: B2</li>
         </ul>
     </section>
-    <footer>
-        <section class="contacto">
-            <h2>Contacto</h2>
-            <ul>
-                <li>Correo: julian.maldonado@gmail.com</li>
-                <li>Teléfono: +57 3172753238</li>
-                <li>Ubicación: Bogotá, CO</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/julian-maldonado-634726280">in/julian-maldonado-634726280</a></li>
-                <li>GitHub: <a href="https://github.com/JmaldonadodevU">github.com/JmaldonadoDev</a></li>
-            </ul>
-        </section>
-    </footer>
-    <div class="gracias">Gracias por visitar la página</div>
+</section>
+<footer>
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <ul>
+            <li>Correo: julian.maldonado@gmail.com</li>
+            <li>Teléfono: +57 3172753238</li>
+            <li>Ubicación: Bogotá, CO</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/julian-maldonado-634726280">in/julian-maldonado-634726280</a></li>
+            <li>GitHub: <a href="https://github.com/JmaldonadodevU">github.com/JmaldonadoDev</a></li>
+        </ul>
+    </section>
+</footer>
+<div class="gracias">Gracias por visitar la página</div>
 
-  <script>
-    const gracias = document.querySelector('.gracias');
-    gsap.fromTo(gracias, { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 1, delay: 1 });
-  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+
+    <script src="/scripts/Gracias.js"></script>
 </section>
 </body>
 </html>
